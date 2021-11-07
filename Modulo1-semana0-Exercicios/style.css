@@ -1,0 +1,123 @@
+
+body{
+    background-color: yellow;
+    height: 1900px-------------------------------------------------------------------;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    background-image: url(image/tecnologia.jpg);
+
+}
+
+p{
+    font-size: 14px;
+}
+
+button{
+    border-radius: 15%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+/*MENU*/
+header{
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    
+}
+
+.header{
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 100px;
+}
+
+.logoimg img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border-color: #fff solid 1px;
+}
+
+.menu{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul,
+.menu li{
+    list-style: none;
+
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li a:hover,
+.menu .active a {
+    border: 1px solid yellow;
+    color: #000;
+    background-color: yellow;
+}
+footer {
+  
+    background-color: #14004d;
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    text-align: right;
+  }
+  
+  .nome{
+    margin-right: 15px;;
+  }
+  
+  .footer_rede_social{
+    text-align: left;
+  }
+  
+  .footer_rede_social a:visited{
+    color: yellow;
+  }
+  
+  .footer_rede_social a:link{
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-bottom: 0;
+    text-align: center;
+  }
